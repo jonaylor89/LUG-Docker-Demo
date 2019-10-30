@@ -1,10 +1,8 @@
 
-FROM kennethreitz/pipenv
+FROM python:3.6.9-alpine3.10
 
 WORKDIR /app
 
 COPY . /app/
-
-RUN pipenv install --deploy --system
 
 CMD ["python3", "main.py"]
