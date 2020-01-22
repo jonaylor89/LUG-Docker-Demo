@@ -1,6 +1,6 @@
 
 def main():
-    print("Hello VCU Linux Users Group")
+    print("Hello VCU RamDev")
 
 if __name__ == "__main__":
     main()
